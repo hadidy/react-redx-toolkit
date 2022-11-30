@@ -2,6 +2,12 @@
     "Employee": {
       "id": { "string": {} },
       "name": { "string": {} },
-      "status": { "string": {} }
+      "status": { "string": [
+        "active",
+        "inactive",
+        "addedd",
+         "checked",
+          "approved"
+      ] }
     }
   }
