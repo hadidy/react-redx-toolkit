@@ -5,7 +5,7 @@
       "status": { "string": [
         "active",
         "inactive",
-        "addedd",
+        "added",
          "checked",
           "approved"
       ] }
