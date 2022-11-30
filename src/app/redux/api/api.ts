@@ -1,10 +1,8 @@
 import axios from "axios";
 const devEnv = process.env.NODE_ENV !== "production";
 
-const { REACT_APP_PROD_API } = process.env;
-
 const API = axios.create({
-  baseURL: `${devEnv ? 'http://localhost:3000/' : REACT_APP_PROD_API}`,
+  baseURL: `${devEnv ? 'http://localhost:8000/' : "https://mockend.com/hadidy/react-redx-toolkit"}`,
 });
 
 
