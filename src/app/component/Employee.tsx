@@ -114,7 +114,7 @@ export default function Employee2() {
                     </TableRow>
                   </TableHead>
                   <TableBody>
-                    {employees.map((row) => (
+                    {employees.length > 0 && employees.map((row) => (
                       <TableRow key={row.name}>
                         <TableCell component="th" scope="row">
                           {row.name}
