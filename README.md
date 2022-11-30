@@ -6,6 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `yarn start`
+
+to download the dependencies
+
+### `npm run json:server`
+
+Runs the json Server in the development mode.\
+
 ### `npm start`
 
 Runs the app in the development mode.\
